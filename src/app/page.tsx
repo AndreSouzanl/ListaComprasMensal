@@ -3,7 +3,7 @@ import produtos from "@/data/constants/produtos";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
      <ListaProduto produtos={produtos} />
     </div>
   );
